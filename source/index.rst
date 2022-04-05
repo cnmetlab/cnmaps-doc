@@ -24,6 +24,9 @@ cnmaps使用指南
 
    content/installation
    content/quick-start
-   content/usage-case
-   content/reference
+   content/examples
+   content/api-ref
+   content/contributor-guide
+   content/license
+   content/citation
    content/changelog
