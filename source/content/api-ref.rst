@@ -26,7 +26,7 @@ maps模块主要存放与地图边界对象相关的类和函数。
 
         :rtype: cnmaps.maps.MapPolygon
     
-    .. py:method:: drop_inner_duplicate(buffer=2)
+    .. py:method:: get_extent(buffer=2)
 
         获取范围坐标
 
@@ -176,4 +176,3 @@ sample模块主要存放示例数据
 
     :return:
         (lons, lats, data)
-        
