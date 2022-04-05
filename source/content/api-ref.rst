@@ -115,7 +115,7 @@ drawing模块主要存放与绘图相关的函数
 
     使用地图边界对象对填色网格线对象进行裁剪
 
-    :param cartopy.mpl.geocollection.GeoQuadMesh contours:
+    :param cartopy.mpl.geocollection.GeoQuadMesh mesh:
         GeoQuadMesh对象, 该对象是调用 ``ax.pcolormesh()`` 方法的返回值，注意: 对象须带有投影信息
                 
     :param cnmaps.maps.MapPolygon map_polygon:
