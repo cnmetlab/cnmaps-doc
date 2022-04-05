@@ -26,7 +26,7 @@ maps模块主要存放与地图边界对象相关的类和函数。
 
         :rtype: cnmaps.maps.MapPolygon
     
-    .. py:method:: drop_inner_duplicate(buffer=2)
+    .. py:method:: get_extent(buffer=2)
 
         获取范围坐标
 
@@ -66,7 +66,7 @@ maps模块主要存放与地图边界对象相关的类和函数。
 .. py:function:: get_adm_maps(province: str = None, city: str = None, district: str = None,level: str = '省', country: str = '中华人民共和国', source: str = '高德',db: str = DB_FILE, engine: str = None, record: str = 'all', only_polygon: bool = False, *args, **kwargs)
     :module: cnmaps.maps
 
-    获取行政名称
+    获取行政地图的边界对象
 
     :param str province:
         省/自治区/直辖市/行政特区中文名, 必须为全称, 例如查找河北省应收入 ``'河北省'`` 而非 ``'河北'`` . 默认为 ``None``.
@@ -176,4 +176,3 @@ sample模块主要存放示例数据
 
     :return:
         (lons, lats, data)
-        
