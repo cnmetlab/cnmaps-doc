@@ -13,17 +13,20 @@ cnmaps是一个致力于让中国地图的获取和使用更丝滑的python扩�
 3. 具有易于使用的地图裁剪功能，且裁剪效果好，平滑无锯齿。
 4. 与cartopy集成，可以自动转换地图边界的投影。
 
-.. image :: _static/china-clip-projections.png
+.. image:: _static/china-clip-projections.png
    :width: 600 px
 
-内容索引
-------------
+cnmaps使用指南
+---------------
 
 .. toctree::
    :maxdepth: 3
 
    content/installation
    content/quick-start
-   content/usage-case
-   content/reference
+   content/examples
+   content/api-ref
+   content/contributor-guide
+   content/license
+   content/citation
    content/changelog
