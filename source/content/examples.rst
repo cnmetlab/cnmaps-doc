@@ -20,7 +20,7 @@
     ax.set_global()
     ax.add_geometries(china, crs=ccrs.PlateCarree(), edgecolor='r', facecolor='r')
     ax.add_geometries(sourth_sea, crs=ccrs.PlateCarree(), edgecolor='r')
-    ax.outline_patch.set_edgecolor('white')
+    ax.spines['geo'].set_edgecolor('white')
 
     plt.show()
 
